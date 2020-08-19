@@ -1,0 +1,90 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.height {
+    min-height: 50vh;
+}
+.title-underline{
+    width: 180px;
+    height: 10px;
+    margin: 0 auto;
+}
+.modified-padding-x {
+    padding: 0 15px!important;
+}
+.height-80 {
+    min-height: 80vh;
+}
+.title-underline-prepare {
+    width: 260px;
+    height: 10px;
+    margin: 0 auto;
+}
+.prepare-img {
+    background: url(../../img/jet-cloud-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.title-underline-fly {
+    width: 160px;
+    height: 10px;
+    margin: 0 auto;
+}
+.title-underline-travel {
+    width: 380px;
+    height: 10px;
+    margin: 0 auto;
+}
+.carousel-item {
+    position: relative;
+}
+.carousel-caption {
+    position: absolute;
+    top: 35%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 35vw;
+}
+#commitment {
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../../img/winter-sport.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 70vh;
+
+}
+.title-underline-people {
+    width: 250px;
+    height: 10px;
+    margin: 0 auto;
+}
+
+#routes {
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(../../img/routes-2.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+footer hr {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+footer .special-effect:hover, nav form .special-effect:hover, #star-alliance p:hover {
+    color: black!important;
+}
+footer button:hover {
+    color: black!important;
+    background: white!important;
+}
+
+#location p {
+    width: 120px;
+}
+#location p:hover, #login p:hover,#search p:hover {
+    color: red!important;
+}
